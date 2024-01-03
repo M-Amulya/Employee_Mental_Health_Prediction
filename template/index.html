@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Mental Health Prediction</title>
+     <style>
+         .content::before {
+      content: "";
+      position: absolute;
+      background: url('https://images.inc.com/uploaded_files/image/1920x1080/GettyImages-1398842718_515803.jpg') no-repeat center center/cover;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      opacity: 1;
+    }
+     </style>
+
+</head>
+<body>
+    <div class="content">
+        <div class="title">Employee Mental Health Prediction</div>
+        <div class="sub-title">Predictive Analysis</div>
+        <form action="/predict" method="POST">
+            <div class="user-detail">
+                <div class="input-box">
+                    <span class="details">Age</span>
+                    <input id="first" name="Age" required="required">
+                </div>
+                <div class="input-box">
+                    <span class="details">Gender</span>
+                    <input id="second" name="Gender" required="required">
+                </div>
+                <div class="input-box">
+                    <span class="details">self_employed</span>
+                    <input id="third" name="self_employed" required="required">
+                </div>
+                <div class="input-box">
+                    <span class="details">family_history</span>
+                    <input id="fourth" name="family_history" required="required">
+                </div>
+                <div class="input-box">
+                    <span class="details">work_interfere</span>
+                    <input id="fifth" name="work_interfere" required="required">
+                </div>
+                <div class="input-box">
+                    <span class="details">no_employees</span>
+                    <input name="no_employees" id="sixth" required="required">
+                </div>
+                <div class="input-box">
+                    <span class="details">remote_work</span>
+                    <input name="remote_work" id="seventh" required="required">
+                </div>
+                <div class="input-box">
+                    <span class="details">tech_company</span>
+                    <input name="tech_company" id="eighth" required="required">
+                </div>
+                <div class="input-box">
+                    <span class="details">benefits</span>
+                    <input name="benefits" id="ninth" required="required">
+                </div>
+                <div class="input-box">
+                    <span class="details">care_options</span>
+                    <input name="care_options" id="tenth" required="required">
+                </div>
+                <div class="input-box">
+                    <span class="details">wellness_program</span>
+                    <input name="wellness_program" id="eleventh" required="required">
+                </div>
+                <div class="input-box">
+                    <span class="details">seek_help</span>
+                    <input name="seek_help" id="twelfth" required="required">
+                </div>
+                <div class="input-box">
+                    <span class="details">anonymity</span>
+                    <input name="anonymity" id="thirteenth" required="required">
+                </div>
+                <div class="input-box">
+                    <span class="details">leave</span>
+                    <input name="leave" id="fourteenth" required="required">
+                </div>
+                <div class="input-box">
+                    <span class="details">mental_health_consequence</span>
+                    <input name="mental_health_consequence" id="fifteenth" required="required">
+                </div>
+                <div class="input-box">
+                    <span class="details">phys_health_consequence</span>
+                    <input name="phys_health_consequence" id="sixteenth" required="required">
+                </div>
+                <div class="input-box">
+                    <span class="details">coworkers</span>
+                    <input name="coworkers" id="seventeenth" required="required">
+                </div>
+                <div class="input-box">
+                    <span class="details">supervisor</span>
+                    <input name="supervisor" id="eighteenth" required="required">
+                </div>
+                <div class="input-box">
+                    <span class="details">mental_health_interview</span>
+                    <input name="mental_health_interview" id="ninteenth" required="required">
+                </div>
+                <div class="input-box">
+                    <span class="details">phys_health_interview</span>
+                    <input name="phys_health_interview" id="twenteenth" required="required">
+                </div>
+                <div class="input-box">
+                    <span class="details">mental_vs_physical</span>
+                    <input name="mental_vs_physical" id="twenty-first" required="required">
+                </div>
+                <div class="input-box">
+                    <span class="details">obs_consequence</span>
+                    <input name="obs_consequence" id="twenty-second" required="required">
+                </div>
+
+            </div>
+            <div class="button">
+                <button id="sub" type="submit ">Predict</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
